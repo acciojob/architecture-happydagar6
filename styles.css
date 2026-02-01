@@ -1,1 +1,101 @@
 /*  your css code here. If applicable */
+body {
+            font-family: Arial, sans-serif;
+            background-color: #d1ded7; /* Sage green background from image */
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* General Structure: 1100px width */
+        .main-container {
+            width: 1100px;
+            background-color: #d1ded7;
+        }
+
+        /* Top Image Container */
+        .imageContainer {
+            width: 100%;
+            margin-bottom: 5px;
+        }
+
+        .imageContainer img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border: 1px solid #999;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%; /* Spans the 1100px container */
+            border-collapse: collapse;
+            border: 1px solid #777;
+            background-color: #d1ded7;
+        }
+
+        td {
+            border: 1px solid #777;
+            padding: 10px;
+            vertical-align: top;
+            font-size: 14px;
+            color: #000;
+            line-height: 1.4;
+        }
+
+        /* Column Widths */
+        .col-side {
+            width: 200px;
+        }
+
+        .col-middle {
+            width: 600px;
+            text-align: center;
+        }
+
+        /* Specific Styling for Content */
+        .center-content {
+            text-align: center;
+        }
+
+        .justify-text {
+            text-align: justify;
+        }
+
+        h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .side-img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+            border: 1px solid #000;
+        }
+
+        .unit-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .learn-more {
+            color: purple;
+            text-decoration: underline;
+            font-size: 12px;
+            display: inline-block;
+            margin-top: 5px;
+        }
+
+        /* Bold titles in side columns */
+        .side-title {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
